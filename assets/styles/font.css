@@ -7,3 +7,8 @@
     font-family: Poppins;
     src: url(../font/Poppins-Regular.ttf);
 }
+
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter-SemiBold.ttf);
+}

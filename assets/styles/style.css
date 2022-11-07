@@ -7,12 +7,63 @@
 header{
     display: flex;
     justify-content: space-between;
+    padding: 24px 135px;
 }
+.header__logo{}
+
 nav{
     display: flex;
     justify-content: center;
 }
 
 .header__menu{
-    padding: 0px 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+padding: 39px 150px;
+width: 49px;
+height: 26px;
+left: 305px;
+top: 39px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0px;
+/* identical to box height, or 100% */
+letter-spacing: 0.1em;
+color: #2E476B;
+}
+.header__button{
+/*  */
+}
+.top-destination{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 50px 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 66px;
+/* identical to box height, or 118% */
+color: #2D3134;
+}
+.top-destination__txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 05px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+color: #5B5F62;
 }
